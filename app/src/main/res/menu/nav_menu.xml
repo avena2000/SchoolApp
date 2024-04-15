@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profileMenu"
+            android:icon="@drawable/ic_person"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/transactionsMenu"
+            android:icon="@drawable/ic_transactions"
+            android:title="Transacción" />
+        <item
+            android:id="@+id/paymentMenu"
+            android:icon="@drawable/ic_payment"
+            android:title="Referencia de pago" />
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_info"
+            android:title="Acerca de Nosotros" />
+
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/themeChange"
+                    android:icon="@drawable/ic_light"
+                    android:title="Cambiar de Tema" />
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Cerrar Sesión" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

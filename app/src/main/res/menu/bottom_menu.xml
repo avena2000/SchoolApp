@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu"
+            android:title="Menu" />-->
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_chat_reactive"
+        android:title="Avisos" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_person_reactive"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/payFragment"
+        android:icon="@drawable/ic_pay_reactive"
+        android:title="Pagos" />
+
+</menu>
